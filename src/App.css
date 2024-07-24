@@ -14,3 +14,7 @@
   color: white;
 }
 
+.App-header h5{
+  margin-top: -50px;
+  font-size: 16px;
+}

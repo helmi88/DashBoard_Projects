@@ -1,0 +1,39 @@
+.todo-container div{
+    width: 100%;
+}
+.todo-container h1,h3 {
+    margin: 0px;
+    padding:0;
+    text-align: center;
+}
+
+.todo-container{
+    min-height: 80vh;
+    margin:0px 10px 0px 10px;
+    padding: 5px;
+    border:5px solid rgb(5, 34, 165);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:inherit;
+}
+
+.todo-container .todo-body {
+    display:flex;
+    flex-direction :row;
+    justify-content: space-around;
+}
+
+.todo-container .todo-section{
+    display: flex;
+    flex-direction :column;
+    justify-content: space-around;
+    border :2px solid black;
+    border-radius: 5px;
+    background-color:rgba(31, 30, 30, 0.2);;
+}
+.todo-container .todo-items{
+    display: flex;
+    justify-content: center;
+}

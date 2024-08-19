@@ -2,6 +2,11 @@ import './todolist.css';
 import Item from './Todolist/Item';
 
 function TodoList() {
+
+    var handleitems = () => {
+        
+    }
+
     return (
     <div className='todo-container'>
             <h1 className='todo-entete'>Container for the project Todo Lists</h1>

@@ -1,6 +1,4 @@
-.todo-container div{
-    width: 100%;
-}
+
 .todo-container h1,h3 {
     margin: 0px;
     padding:0;
@@ -22,18 +20,17 @@
 .todo-container .todo-body {
     display:flex;
     flex-direction :row;
-    justify-content: space-around;
+    justify-content:space-evenly;
+    width: 100%;
 }
 
 .todo-container .todo-section{
+    width: inherit;
+    padding: 5px;
     display: flex;
     flex-direction :column;
-    justify-content: space-around;
+    justify-content: flex-start;
     border :2px solid black;
     border-radius: 5px;
     background-color:rgba(31, 30, 30, 0.2);;
-}
-.todo-container .todo-items{
-    display: flex;
-    justify-content: center;
 }

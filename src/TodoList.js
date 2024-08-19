@@ -15,6 +15,8 @@ function TodoList() {
                     <h3>Thinks to do</h3>
                     <div className='todo-items'>
                         <Item />
+                        <Item />
+                        <Item />
                     </div>
                 </div>
                 <div className='todo-section'>

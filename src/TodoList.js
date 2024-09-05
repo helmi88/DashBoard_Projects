@@ -12,7 +12,7 @@ function TodoList() {
             <h1 className='todo-entete'>Container for the project Todo Lists</h1>
             <div className='todo-body'>
                 <div className='todo-section'>
-                    <h3>Thinks to do</h3>
+                    <h3>To Do</h3>
                     <div className='todo-items'>
                         <Item />
                         <Item />
@@ -20,13 +20,13 @@ function TodoList() {
                     </div>
                 </div>
                 <div className='todo-section'>
-                    <h3>Thinks in progress</h3>
+                    <h3>In Progress</h3>
                     <div className='todo-items'>
                         <Item />
                     </div>
                 </div>
                 <div className='todo-section'> 
-                    <h3>Finished thinks</h3>
+                    <h3>Finished</h3>
                     <div className='todo-items'>
                         <Item />
                     </div>
